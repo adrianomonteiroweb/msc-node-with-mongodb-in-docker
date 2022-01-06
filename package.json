@@ -1,0 +1,28 @@
+{
+  "name": "msc-node-with-mongodb-in-docker",
+  "version": "1.0.0",
+  "description": "Aplicação node e express em ambiente docker, banco de dados mongoDB e testes com Mocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adrianomonteiroweb/msc-node-with-mongodb-in-docker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adrianomonteiroweb/msc-node-with-mongodb-in-docker/issues"
+  },
+  "homepage": "https://github.com/adrianomonteiroweb/msc-node-with-mongodb-in-docker#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}
