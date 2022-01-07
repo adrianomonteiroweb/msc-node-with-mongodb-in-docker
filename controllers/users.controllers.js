@@ -2,7 +2,7 @@ const { findAllUsers } = require('../services/users.services');
 
 const STATUS_OK = 200;
 
-const usersList = async (req, res, next) => {
+const usersList = async (_req, res, next) => {
   try {
     const users = await findAllUsers();
     return res.status(STATUS_OK).json(users);
