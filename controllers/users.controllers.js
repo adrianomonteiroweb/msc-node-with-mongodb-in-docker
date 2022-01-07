@@ -1,3 +1,5 @@
+const { findAllUsers } = require('../services/users.services');
+
 const STATUS_OK = 200;
 
 const usersList = async (req, res, next) => {
