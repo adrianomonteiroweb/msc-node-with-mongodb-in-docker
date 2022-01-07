@@ -12,3 +12,4 @@ COPY . .
 EXPOSE 3000
 # única por dockerfile. É o comando de start do arquivo com o node
 CMD ["npm", "start"]
+# monta a imagem com o comando: docker build -t adriano/dockernode .
