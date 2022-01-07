@@ -1,9 +1,9 @@
-const mongodb = require('mongodb').MongoClient();
+const { MongoClient } = require('mongodb');
 
 const DB_NAME = 'class';
 const URL_MONGODB = `mongodb://localhost:27017/${DB_NAME}`;
 
-module.exports = () => mongodb.connect(URL_MONGODB, {
+module.exports = () => MongoClient.connect(URL_MONGODB, {
   useNewUrlParser: true,
   useunifiedTopology: true,
 })
